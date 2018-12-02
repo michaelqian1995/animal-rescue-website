@@ -1,0 +1,72 @@
+html {
+  font-family: "Bitter", serif;
+}
+
+h1, h2, h3, h4, h5, h6, .btn, .i-logo + .icon-label, nav a, legend {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.masthead {
+  background-color: #333;
+}
+
+.logo-text {
+  color: white;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #7cccc8;
+}
+
+.nav a:focus {
+  outline: black;
+}
+
+.line {
+  background-image: linear-gradient(to right, #7cccc8, #a8ffc9, #289993);
+  height: .325rem;
+}
+
+.line-thin {
+  height: .125rem;
+}
+
+.line-thick {
+  height: 1.5rem;
+}
+
+.banner-text {
+  color: #fff;
+}
+
+.btn {
+  border-color: #7cccc8;
+  background-color: #7cccc8;
+  color: #fff;
+}
+
+.banner a:hover {
+  background-color: #fff;
+  color: #7cccc8;
+}
+
+.card {
+  max-width: 25rem;
+  border: 5px solid #7cccc8;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #000;
+  transition: 250ms;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.card-rounded {
+  border-radius: 25px;
+}
