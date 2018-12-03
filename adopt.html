@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Pet Rescue</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Black+Han+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="masthead" role="banner">
+    <div class="grid grid-middle">
+      <div class="logo-center unit xs-1 s-1 m-1-2 l-1-2">
+        <h1 class="logo push-0 text-center">
+          <i class="icon i-48"><img src="favicon-196.png" alt="dog"></i>
+          <span class="logo-text tera icon-label text-left pad-t-2">Pet Rescue</span>
+        </h1>
+      </div>
+
+      <div class="nav unit xs-1 s-1 m-1-2 l-1-2 pad-t-1 pad-b-1">
+        <nav class="wrapper" role="navigation" id="nav" tabindex="0">
+          <ul class="list-group-inline mega push-0 text-center">
+            <li><a class="ib gutter-1-2" href="index.html">Home</a></li>
+            <li><a class="ib gutter-1-2" href="rescue.html">Rescue</a></li>
+            <li><a class="ib gutter-1-2" href="adopt.html">Adopt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="line"></div>
+  </header>
+
+  <main id="main" role="main" tabindex="0">
+    <section id="banner" tabindex="0">
+      <div class="embed embed-24by10">
+        <img class="embed-item text-center" src="images/banner.jpg" alt="" aria-details="banner-img">
+
+        <div class="banner banner-content pin-c max-length gutter text-center">
+          <h2 class="push-1-2 banner-text exa">Come On! Save These Poor Pets.</h2>
+          <a class="btn btn-banner bold" href="sign-up.html">I Want Adopt!</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="text" tabindex="0">
+      <div class="line"></div>
+      <h2 class="gutter text-center push-0"><span class="gutter pad-t pad-b nina inline-block">Adopt a Pet</span></h2>
+
+      <form method="POST" action="12345@algonquinlive.com" role="form">
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="name">First &amp;Last Name</label>
+            <input class="micro" id="name" required name="name">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="age">Your Age</label>
+            <input class="micro" id="age" required name="age">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="gender">Gender</label>
+            <select class="text" id="gender" name="gender">
+              <option value="">Select</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Others</option>
+            </select>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="dob">Date of birth</label>
+            <input class="text" id="dob" required name="dob" type="date">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="address">Address</label>
+            <input class="micro" id="address" required name="address">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="city">City</label>
+            <input class="micro" id="city" required name="city">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="province">Province</label>
+            <select class="micro" id="province" name="province">
+              <option value="">Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland &amp; Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="postal">Postal/Zip Code</label>
+            <input class="micro" id="postal" required name="postal">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="email">Email Address</label>
+            <input class="micro" id="email" required name="email">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="phone">Phone Number</label>
+            <input class="text" id="phone" required name="phone">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="p-name">Alternative Email:</label>
+            <input class="micro" id="p-name" name="p-name">
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 gutter-2 push">
+            <label for="p-age">Alternative Phone</label>
+            <input class="micro" id="p-age" name="p-age">
+          </div>
+
+        </div>
+        <div class="text-center pad-b tera">
+          <a class="btn btn-ghost" href="#">Adopt</a>
+        </div>
+      </form>
+    </section>
+
+    <section id="sub-banner" tabindex="0">
+      <div class="line"></div>
+      <div class="pad-t-1 pad-b-1 wrapper">
+        <ul class="grid grid-middle list-group">
+          <li class="unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
+            <div class="gutter-2 ">
+              <img class="img-flex" src="favicon-196.png" alt="dog-icon" aria-details="dog-img">
+            </div>
+          </li>
+
+          <li class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+            <div class="pad-t-1-1 gutter-2 text-center">
+              <h2 class="peta push-1-2 pad-t-1-2">What a Nice Day to Save a Pet</h2>
+              <p class="max-length mega push-0">Senior citizens and shy cats make super companions. Learn more about our newest program and help a shy cat find a home.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="line"></div>
+
+    <footer role="contentinfo">
+      <div class="footer pad-t-1-2 pad-b-1-2 text-center">
+        <div class="wrapper gutter-1-2">
+          <small class="push-0 micro">Some quotes © <i>Pet Rescue</i>, 2008.</small>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>
