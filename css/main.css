@@ -32,6 +32,10 @@ h2 {
   outline: black;
 }
 
+.banner a:focus {
+  outline: black;
+}
+
 .line {
   background-image: linear-gradient(to right, #7cccc8, #a8ffc9, #289993);
   height: .325rem;
